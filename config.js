@@ -1,17 +1,12 @@
 // ─────────────────────────────────────────────────────────────
 // MedGrid — Supabase connection settings
 // ─────────────────────────────────────────────────────────────
-// Get these two values from your Supabase project:
-//   Supabase Dashboard → Project Settings → API
-//     - "Project URL"        → SUPABASE_URL
-//     - "anon" "public" key  → SUPABASE_ANON_KEY
-//
-// This file is loaded as a plain <script> before the app runs, so the
-// values just need to be valid JS strings. The anon key is safe to expose
-// in frontend code — it is the public, rate-limited key Supabase is
-// designed to have shipped to browsers. It is NOT the service_role key
-// (never put the service_role key in frontend code).
+// These are already filled in with your Supabase project's URL and
+// anon public key. The anon key is safe to expose in frontend code —
+// it is the public, rate-limited key Supabase is designed to have
+// shipped to browsers. It is NOT the service_role key (never put the
+// service_role key in frontend code).
 // ─────────────────────────────────────────────────────────────
 
-window.SUPABASE_URL = "YOUR_SUPABASE_PROJECT_URL";
-window.SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_PUBLIC_KEY";
+window.SUPABASE_URL = "https://lzernwvioyybxomnkgti.supabase.co";
+window.SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx6ZXJud3Zpb3l5YnhvbW5rZ3RpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ5OTUzNjMsImV4cCI6MjEwMDU3MTM2M30.fdqkzBFdCimGUtcBEnssa920EQI0QG4wvHHP1dz4pfY";
