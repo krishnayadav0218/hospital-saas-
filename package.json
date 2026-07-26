@@ -1,0 +1,9 @@
+{
+  "name": "medgrid-project",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Serverless helper functions for MedGrid (user seeding + admin user management). The main app is the static index.html; this package.json only exists so Vercel installs dependencies for the /api functions.",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.0"
+  }
+}
